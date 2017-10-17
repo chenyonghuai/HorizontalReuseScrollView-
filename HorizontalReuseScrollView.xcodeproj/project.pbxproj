@@ -14,6 +14,9 @@
 		1B7346B71F52AE3300EE932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7346B61F52AE3300EE932D /* Assets.xcassets */; };
 		1B7346BA1F52AE3300EE932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7346B81F52AE3300EE932D /* LaunchScreen.storyboard */; };
 		1B7346C51F52AE3300EE932D /* HorizontalReuseScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7346C41F52AE3300EE932D /* HorizontalReuseScrollViewTests.m */; };
+		1B7346D21F52AEA100EE932D /* HorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7346D11F52AEA100EE932D /* HorizontalScrollView.m */; };
+		1B7346D51F52AED900EE932D /* HorizontalRowRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7346D41F52AED900EE932D /* HorizontalRowRecord.m */; };
+		1B7346D81F52AEF600EE932D /* ReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7346D71F52AEF600EE932D /* ReuseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		1B7346C01F52AE3300EE932D /* HorizontalReuseScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalReuseScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7346C41F52AE3300EE932D /* HorizontalReuseScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalReuseScrollViewTests.m; sourceTree = "<group>"; };
 		1B7346C61F52AE3300EE932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7346D01F52AEA100EE932D /* HorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollView.h; sourceTree = "<group>"; };
+		1B7346D11F52AEA100EE932D /* HorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollView.m; sourceTree = "<group>"; };
+		1B7346D31F52AED900EE932D /* HorizontalRowRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalRowRecord.h; sourceTree = "<group>"; };
+		1B7346D41F52AED900EE932D /* HorizontalRowRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalRowRecord.m; sourceTree = "<group>"; };
+		1B7346D61F52AEF600EE932D /* ReuseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseView.h; sourceTree = "<group>"; };
+		1B7346D71F52AEF600EE932D /* ReuseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReuseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		1B7346A91F52AE3300EE932D /* HorizontalReuseScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				1B7346CF1F52AE6400EE932D /* HorizontalReUse */,
 				1B7346AD1F52AE3300EE932D /* AppDelegate.h */,
 				1B7346AE1F52AE3300EE932D /* AppDelegate.m */,
 				1B7346B01F52AE3300EE932D /* ViewController.h */,
@@ -109,6 +119,19 @@
 				1B7346C61F52AE3300EE932D /* Info.plist */,
 			);
 			path = HorizontalReuseScrollViewTests;
+			sourceTree = "<group>";
+		};
+		1B7346CF1F52AE6400EE932D /* HorizontalReUse */ = {
+			isa = PBXGroup;
+			children = (
+				1B7346D01F52AEA100EE932D /* HorizontalScrollView.h */,
+				1B7346D11F52AEA100EE932D /* HorizontalScrollView.m */,
+				1B7346D31F52AED900EE932D /* HorizontalRowRecord.h */,
+				1B7346D41F52AED900EE932D /* HorizontalRowRecord.m */,
+				1B7346D61F52AEF600EE932D /* ReuseView.h */,
+				1B7346D71F52AEF600EE932D /* ReuseView.m */,
+			);
+			name = HorizontalReUse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7346B21F52AE3300EE932D /* ViewController.m in Sources */,
+				1B7346D81F52AEF600EE932D /* ReuseView.m in Sources */,
+				1B7346D51F52AED900EE932D /* HorizontalRowRecord.m in Sources */,
+				1B7346D21F52AEA100EE932D /* HorizontalScrollView.m in Sources */,
 				1B7346AF1F52AE3300EE932D /* AppDelegate.m in Sources */,
 				1B7346AC1F52AE3300EE932D /* main.m in Sources */,
 			);
